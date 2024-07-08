@@ -205,6 +205,66 @@ header{
     margin-right: 10px;
     line-height: 38px;
 }
+/* skill item box style End */
+/* resume box style start */
+.resume{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.resume-box{
+    width: 1300px;
+    height: 850px;
+    padding:0px 150px;
+}
+.resume-item{
+    display: flex;
+}
+.education{
+    width: 550px;
+    margin-right: 150px;
+}
+.experience{
+    width: 550px;
+}
+.resume-box > h2{
+    color: rgb(24, 24, 24);
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.resume-item h2{
+    color: rgb(71, 71, 71);
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.resume-item h3{
+    color: rgb(71, 71, 71);
+    font-size: 25px;
+    font-weight: 700;
+}
+.resume-item h4{
+    color: rgb(117, 117, 117);
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.resume-item p{
+    color: rgb(117, 117, 117);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.resume-box .btn{
+    margin-top: 30px;
+}
+.summery-btn{
+    display: flex;
+    justify-content: center;
+}
 
-
-/* skill item box style Emd */
+/* resume box style end */
