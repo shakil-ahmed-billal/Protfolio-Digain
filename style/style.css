@@ -3,8 +3,22 @@
 *{
     margin: 0;
     padding: 0;
+}
+body{
     font-family: "Open Sans", sans-serif;
 }
+/* share style sectaion */
+.btn{
+    border-radius: 5px;
+    background: rgb(253, 110, 10);
+    font-weight: bold;
+    padding: 18px 35px;
+    font-size: 20px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+/* share style sectaion */
 
 /* nav style start now */
 .dark-2{
@@ -17,20 +31,74 @@ nav{
 .nav-title{
     font-size: 45px;
     font-weight: 800;
+    margin-top: 51px;
+    margin-left: 226px;
 }
 .nav-title > span{
     color: #FD6E0A;
 }
 nav > ul {
     display: flex;
-    margin-right: 51px;
+    align-items: center;
+    margin-right: 100px;
 }
 nav > ul > li{
     list-style: none;
     font-size: 20px;
-
+    margin: 50px;
+    cursor: pointer;
 }
 nav > ul > li > a{
     text-decoration: none;
     justify-content: center;
 }
+/* hadear section style */
+header{
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top 30% left 1%, bottom right;
+}
+/* banner sectaion style start */
+.banner{
+    display: flex;
+    justify-content: space-between;
+}
+.banner .banner-content{
+    width: 650px;
+    margin-left: 300px;
+    margin-top: 180px;
+}
+.banner-content h2{
+    color: rgb(71, 71, 71);
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+.banner-content h1{
+    color: rgb(24, 24, 24);
+    font-size: 85px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.banner-content p{
+    color: rgb(117, 117, 117);
+    font-size: 18px;
+    font-weight: 400;
+}
+.banner-content .btn2{
+    background-color: white;
+    color: #FD6E0A;
+    border: 1px solid #FD6E0A;
+}
+.banner-content button{
+    margin-top: 30px;
+    margin-right:20px;
+}
+.character{
+    width: 584px;
+    height: 676px;
+    margin-top: 85px;
+    margin-right: 45px;
+}
+
+/* banner sectaion style end */
